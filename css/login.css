@@ -1,0 +1,149 @@
+@media only screen and (min-width: 600px) {
+    #left
+       {
+          display: none;
+        }
+
+  }
+body {
+    background-image: url('../bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#mainbox {
+    width: 900px;
+    height: 510px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+
+
+}
+
+#Logo {
+    width: 138px;
+    height: 48px;
+    margin-top: 5%;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#right {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    /* text-align: center; */
+}
+
+#baseline {
+    font-size: 16px;
+}
+
+#baseline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+#centerimage {
+    height: 177px;
+    width: 280px;
+}
+
+#dotsblock {
+    margin-top: 7%;
+}
+
+#bottom_baseline {
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#basetext1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#basetext2 {
+    margin: 20px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logintext {
+    margin-top: 8%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#loginline {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -15px;
+}
+
+#emailcontainer {
+    height: 80px;
+    width: 396px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+#input1 {
+    height: 20px;
+    width: 330px;
+    background-color: white;
+    color: black;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+
+#emailtxt {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #5D5366;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+#pincontainer {
+    height: 80px;
+    width: 396px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin-top: 15px;
+}
+
+
+#lastline{
+color: #24272A;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 12px;
+text-align: center;
+}
+
+#logincontainer
+{
+    height: 40px; width: 390px; background-color: #262729; display: flex; align-items: center;justify-content: center;
+}
